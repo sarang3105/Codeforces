@@ -25,10 +25,8 @@ public class Reposts_522A {
             }
             adj.get(b).add(a);
         }
-        Map<String, Integer> max = new HashMap<>();
         System.out.println(dfs("polycarp", adj));
     }
-
 
     static int dfs(String start, Map<String, List<String>> adj) {
         int dist = 0;
